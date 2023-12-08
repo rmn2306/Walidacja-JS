@@ -1,30 +1,10 @@
 f=document.getElementById("form");
 
 w=document.getElementById("wypluwacz");
-//spr numery
 rexN=/^[0-9]+$/;
-//spr tekst
 rexT = /^[a-zA-Z]+$/;
-//spr date 2023-10-08
 rexD = /^\d{4}-\d{2}-\d{2}$/;
-//spr kolor
 
-// osoba = {
-//     imie: "Piotrek",
-//     nazwisko: "Mika",
-//     wiek: 38,
-//     zestawDane: function(){
-//         return "Imie" + this.imie + "<br> nazwisko: " + this.nazwisko;
-//     }
-
-// }
-// console.log(osoba.zestawDane)
-// w.innerHTML=osoba.zestawDane();
-
-
-// f.name.style.color="red";
-// f.name.style.backgroundColor="blue";
-// f.name.disable=true;
 
 f.name.addEventListener("change", function(e){
     Valid(this);
